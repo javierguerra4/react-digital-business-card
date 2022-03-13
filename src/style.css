@@ -1,7 +1,7 @@
 body {
   background-color: #1c1c1c;
 }
-
+/* ****************** CSS for Info.js ************************/
 .card {
   width: 550px;
   height: 870px;
@@ -50,3 +50,32 @@ body {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
+.mail-button {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 468px;
+  background: #ffffff;
+  /* gray/300 */
+
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+/* This adds space between the icon and text in button */
+button i::before {
+  padding-right: 15px;
+}
+/* **************************************************** */
