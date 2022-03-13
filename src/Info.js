@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "/images/javier-headshot.jpg";
+import Headshot from "./images/javier-headshot.jpg";
 
 export default function Info() {
   return (
