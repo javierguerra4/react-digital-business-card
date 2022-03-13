@@ -1,9 +1,10 @@
 import React from "react";
+import Info from "./Info.js";
 
 export default function Card() {
   return (
     <div className="card">
-      <h1 className="name">Test</h1>
+      <Info />
     </div>
   );
 }
