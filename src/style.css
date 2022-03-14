@@ -55,17 +55,18 @@ body {
 .mail-button {
   font-family: Inter, sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
   display: inline-block;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 9px 13px 9px 11px;
-  width: 115px;
-  height: 34px;
+  width: 130px;
+  height: 40px;
   left: 151px;
   top: 468px;
+  margin-right: 30px;
   background: #ffffff;
   /* gray/300 */
 
@@ -82,7 +83,7 @@ body {
   color: #ffffff;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
   display: inline-block;
   flex-direction: row;
@@ -90,8 +91,8 @@ body {
   align-items: center;
   padding: 9px 13px 9px 11px;
   /* position: absolute; */
-  width: 115px;
-  height: 34px;
+  width: 130px;
+  height: 40px;
   left: 283px;
   top: 468px;
   background: #5093e2;
@@ -111,7 +112,7 @@ body {
 }
 /* This adds space between the icon and text in button */
 button i::before {
-  padding-right: 15px;
+  padding-right: 11px;
 }
 
 /* **************************************************** */

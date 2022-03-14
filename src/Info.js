@@ -10,10 +10,10 @@ export default function Info() {
       <h4 className="portfolio">Portfolio</h4>
       <div className="buttons">
         <button className="mail-button">
-          <i class="fa fa-envelope" aria-hidden="true"></i>Email
+          <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Email
         </button>
         <button className="linkedin-button">
-          <i class="fa-brands fa-linkedin"></i>LinkedIn
+          <i class="fab fa-linkedin fa-lg"></i>LinkedIn
         </button>
       </div>
     </div>
