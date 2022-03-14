@@ -11,6 +11,7 @@ body {
   display: grid;
   place-items: center;
   border-radius: 25px;
+  position: relative;
 }
 
 .name {
@@ -101,7 +102,13 @@ body {
 
   border-radius: 6px;
 }
-
+/* This is centering the buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid green;
+}
 /* This adds space between the icon and text in button */
 button i::before {
   padding-right: 15px;
