@@ -108,7 +108,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid green;
 }
 /* This adds space between the icon and text in button */
 button i::before {
