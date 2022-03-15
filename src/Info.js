@@ -16,9 +16,11 @@ export default function Info() {
         <h4 className="portfolio">Portfolio</h4>
       </a>
       <div className="buttons">
-        <button className="mail-button">
-          <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Email
-        </button>
+        <a href="mailto:javier.j.guerra4@gmail.com">
+          <button className="mail-button">
+            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Email
+          </button>
+        </a>
         <a href="https://www.linkedin.com/in/javier-guerra4/" target="_blank">
           <button className="linkedin-button">
             <i class="fab fa-linkedin fa-lg"></i>LinkedIn
