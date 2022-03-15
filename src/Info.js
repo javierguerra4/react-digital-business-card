@@ -14,9 +14,11 @@ export default function Info() {
         <button className="mail-button">
           <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Email
         </button>
-        <button className="linkedin-button">
-          <i class="fab fa-linkedin fa-lg"></i>LinkedIn
-        </button>
+        <a href="https://www.linkedin.com/in/javier-guerra4/" target="_blank">
+          <button className="linkedin-button">
+            <i class="fab fa-linkedin fa-lg"></i>LinkedIn
+          </button>
+        </a>
       </div>
     </div>
   );

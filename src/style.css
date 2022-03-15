@@ -117,6 +117,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.linkedin-button:hover {
+  background-color: #173b67;
+}
+.mail-button:hover {
+  background-color: grey;
+}
 /* This adds space between the icon and text in button */
 button i::before {
   padding-right: 11px;
