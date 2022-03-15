@@ -12,8 +12,13 @@ export default function About() {
         </p>
       </div>
       <div className="interest-container">
-        <h2 className="interest">Interest</h2>
-        <p className="interest-content"></p>
+        <h2 className="interests">Interests</h2>
+        <p className="interests-content">
+          {" "}
+          You will catch me enjoying a good action comedy or thriller movie. I
+          spend time in the gym listening to some great jams or podcast. I love
+          food and trying new restaurants.
+        </p>
       </div>
     </div>
   );
