@@ -8,7 +8,7 @@ export default function About() {
         <p className="about-content">
           I am a fullstack developer that enjoys learning about web-development
           as a whole. I continue to increase the knowledge of the languages I
-          already know, and expose myself to new languages and frameworks.{" "}
+          already know, and expose myself to new languages and frameworks.
         </p>
       </div>
       <div className="interest-container">
