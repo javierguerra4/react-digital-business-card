@@ -44,6 +44,9 @@ body {
   line-height: 100%;
   text-align: center;
 }
+.portfolio:hover {
+  color: #173b67;
+}
 
 .headshot-container {
   width: 400px;
@@ -187,4 +190,9 @@ button i::before {
   padding-right: 30px;
   padding-left: 30px;
   color: #918e9b;
+}
+
+.twitter-icon:hover,
+.github-icon:hover {
+  color: #6b6b6b;
 }
